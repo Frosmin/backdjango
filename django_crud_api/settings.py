@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'tasks',
     'rest_framework',
     'corsheaders',
+    'coreapi',
 ]
 
 MIDDLEWARE = [
@@ -136,3 +137,7 @@ CORS_ALLOWED_ORIGINS = [
  
 ]
 
+REST_FRAMEWORK = {
+    ...: ...,
+    "DEFAULT_SCHEMA_CLASS": "rest_framework.schemas.coreapi.AutoSchema",
+}
