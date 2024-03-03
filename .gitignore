@@ -1,2 +1,4 @@
+# .gitignore 
 venv/
-.env/
+.env
+env
