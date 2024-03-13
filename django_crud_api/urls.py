@@ -27,7 +27,6 @@ urlpatterns = [
 
 
 
-
 # router = routers.DefaultRouter()
 # router.register(r'tasks',TaskView, 'task')
 
